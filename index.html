@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Bienvenido a nuestro sistema!</h1>
+    <h2>Te ayudamos a calcular la dosis de PARACETAMOL para niños</h2>
+
+    <label for="">Nombre del niño</label>
+    <input type="text" id="nombreUsuario">
+
+    <br>
+
+    <label for="">Ingrese la edad del niño</label>
+    <input type="number" id="edadUsuario">
+
+    <br>
+
+    <label for="">Ingrese el peso del niño</label>
+    <input type="number" id="pesoUsuario">
+    
+    <br>
+
+    <label for="">Ingrese la presentacion del paracetamol </label> <br>
+    <input type="radio" name="presentacion" value="1"> 120mg/5ml <br>
+    <input type="radio" name="presentacion" value="2"> 100mg/ml
+
+
+
+    <br>
+
+    <button id="btnCalcular">Calcular dosis</button>
+
+    
+    <div class="container">
+        <h2>Resultado del calculo</h2>
+        <table>
+          <thead>
+            <tr>
+              <td>Nombre</td>       
+              <td>Edad</td>
+              <td>Peso</td>
+              <td>Presentacion</td>
+              <td>Ml por administrar</td>         
+            </tr>
+          </thead>
+          <tbody id="tabla-body">
+
+          </tbody>
+        </table>
+
+
+    </div>
+
+    <script src="3eraEntrega.js"></script>
+</body>
+</html>
